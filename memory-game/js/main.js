@@ -15,6 +15,6 @@ if (cardsInPlay.length === 2);
 	else if (cardsInPlay[0] === cardsInPlay[1]) {
 	alert("You found a match!");
 }
-	else if (cardsInPlay[0] != cardsInPlay[1]) {
+	else if (cardsInPlay[0] !== cardsInPlay[1]) {
 	alert("Sorry,try again.");
 }
